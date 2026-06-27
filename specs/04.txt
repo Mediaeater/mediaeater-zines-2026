@@ -1,0 +1,32 @@
+LINCO PRESS SPEC  (issue04)  ·  process: SHEETFED
+============================================================
+trim (single page) : 11.0" x 14.0"   [CONFIRM with Linco prepress]
+bleed              : 0.25" all sides
+resolution         : 200 ppi at final size
+colour             : CMYK; total ink <= 270%
+body stock         : 70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+cover stock        : 100 lb Uncoated Cover
+copies             : 110   (min for this process: 100)
+pages              : 16 (padded to x4 for imposition)
+export             : PDF 1.4 / Press Quality, single pages (no spreads), flattened
+
+PAGE PLAN (stock per leaf — annotate vellum/matte/colour swaps here):
+  p01  cover         100 lb Uncoated Cover  [COVER — full bleed; vellum tip-in over it]
+  p02  page_01       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p03  page_02       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p04  page_03       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p05  page_04       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p06  page_05       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p07  page_06       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p08  page_07       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p09  page_08       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p10  page_09       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p11  page_10       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p12  page_11       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p13  page_12       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p14  BLANK_1       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)  [BLANK — swap to VELLUM tip-in / MATTE here]
+  p15  BLANK_2       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)  [BLANK — swap to VELLUM tip-in / MATTE here]
+  p16  colophon      70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+
+FOLD-OUT (reverse side): single full image @ broadsheet 11.5x22.75", CMYK, 0.25" bleed.
+  -> FOLDOUT_broadsheet.tif  (imposition as the sheet reverse: Linco prepress)
