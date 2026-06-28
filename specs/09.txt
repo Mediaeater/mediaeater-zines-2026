@@ -1,32 +1,40 @@
-LINCO PRESS SPEC  (issue09)  ·  process: SHEETFED
+LINCO PRESS SPEC  (issue09)  ·  process: COATED
 ============================================================
-trim (single page) : 11.0" x 14.0"   [CONFIRM with Linco prepress]
+trim (single page) : 7.875" x 10.5"   [CONFIRM with Linco prepress]
 bleed              : 0.25" all sides
 resolution         : 200 ppi at final size
-colour             : CMYK; total ink <= 270%
-body stock         : 70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-cover stock        : 100 lb Uncoated Cover
-copies             : 110   (min for this process: 100)
-pages              : 16 (padded to x4 for imposition)
+colour             : CMYK; ink cap body 310% / cover 310%
+body stock         : 100 lb Matte Text (coated)
+cover stock        : 100 lb Matte Cover (coated)
+copies             : 110   (min for these stocks: 100)
+pages              : 24 (padded to x4 for imposition)
 export             : PDF 1.4 / Press Quality, single pages (no spreads), flattened
 
 PAGE PLAN (stock per leaf — annotate vellum/matte/colour swaps here):
-  p01  cover         100 lb Uncoated Cover  [COVER — full bleed; vellum tip-in over it]
-  p02  page_01       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p03  page_02       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p04  page_03       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p05  page_04       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p06  page_05       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p07  page_06       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p08  page_07       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p09  page_08       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p10  page_09       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p11  page_10       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p12  page_11       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p13  page_12       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
-  p14  BLANK_1       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)  [BLANK — swap to VELLUM tip-in / MATTE here]
-  p15  BLANK_2       70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)  [BLANK — swap to VELLUM tip-in / MATTE here]
-  p16  colophon      70 lb Vanilla Ultra Smooth, uncoated text (sheet-fed, 100-copy min)
+  p01  cover         100 lb Matte Cover (coated)  [COVER — full bleed; vellum tip-in over it]
+  p02  page_01       100 lb Matte Text (coated)
+  p03  page_02       100 lb Matte Text (coated)
+  p04  CBLANK_1_a    COLOUR LEAF rgb(28, 62, 94) — coloured stock / flat-colour leaf
+  p05  CBLANK_1_b    COLOUR LEAF rgb(28, 62, 94) — coloured stock / flat-colour leaf
+  p06  page_03       100 lb Matte Text (coated)
+  p07  page_04       100 lb Matte Text (coated)
+  p08  CBLANK_2_a    COLOUR LEAF rgb(193, 146, 40) — coloured stock / flat-colour leaf
+  p09  CBLANK_2_b    COLOUR LEAF rgb(193, 146, 40) — coloured stock / flat-colour leaf
+  p10  page_05       100 lb Matte Text (coated)
+  p11  page_06       100 lb Matte Text (coated)
+  p12  page_07       100 lb Matte Text (coated)
+  p13  page_08       100 lb Matte Text (coated)
+  p14  CBLANK_3_a    COLOUR LEAF rgb(38, 96, 86) — coloured stock / flat-colour leaf
+  p15  CBLANK_3_b    COLOUR LEAF rgb(38, 96, 86) — coloured stock / flat-colour leaf
+  p16  page_09       100 lb Matte Text (coated)
+  p17  page_10       100 lb Matte Text (coated)
+  p18  CBLANK_4_a    COLOUR LEAF rgb(84, 84, 90) — coloured stock / flat-colour leaf
+  p19  CBLANK_4_b    COLOUR LEAF rgb(84, 84, 90) — coloured stock / flat-colour leaf
+  p20  page_11       100 lb Matte Text (coated)
+  p21  page_12       100 lb Matte Text (coated)
+  p22  BLANK_pre     100 lb Matte Text (coated)  [BLANK endpaper — vellum/matte swap]
+  p23  colophon      100 lb Matte Text (coated)
+  p24  BLANK_post    100 lb Matte Text (coated)  [BLANK endpaper — vellum/matte swap]
 
 FOLD-OUT (reverse side): single full image @ broadsheet 11.5x22.75", CMYK, 0.25" bleed.
   -> FOLDOUT_broadsheet.tif  (imposition as the sheet reverse: Linco prepress)

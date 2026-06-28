@@ -12,11 +12,11 @@ caption, headline, or body text.
 | | |
 |---|---|
 | **Author** | Mark Ghuneim (Mediaeater) |
-| **Format** | Wordless red-line image-zine |
+| **Format** | Wordless red-line image-zine · quarter-fold cover → poster |
 | **Issues** | 10 published (Issue 11 in production) |
-| **Interior** | 12 plates per issue |
+| **Interior** | 12 full-bleed plates + 4 coloured spreads (24 pp) |
 | **Edition** | 100 + 10 AP each |
-| **Print** | Sheet-fed, CMYK, 11 × 14 in |
+| **Print** | Coated sheet-fed, CMYK, mini 7.875 × 10.5 in |
 | **Copyright** | © MMXXVI · Mediaeater Inc. |
 
 ## Format
@@ -25,10 +25,13 @@ The visual identity is fixed across every issue:
 
 - **Red through-line** — a single red vertical rule down the same left margin of
   every page.
-- **Cover** — one full-bleed treated photograph with a large red issue-number
-  box; no masthead, no title, no words.
-- **Interior** — twelve treated plates, one per page, wordless (no captions, lot
-  numbers, or page numbers).
+- **Cover / poster** — the cover is a quarter-fold sheet: it folds out to a
+  full-bleed poster and folds down to the cover — the treated photograph with a
+  large red issue-number box on the front, the Mediaeater mark on the back. No
+  masthead, no title, no words.
+- **Interior** — twelve **full-bleed** treated plates, plus four coloured spreads
+  dispersed through the booklet, wordless (no captions, lot numbers, or page
+  numbers).
 - **Colophon** — the only text in the issue. An asymmetric Baskerville-serif
   page: the issue title at left, `ISSUE <roman>` at right, the photo credit, the
   edition line, and the copyright entity set vertically up the spine.
@@ -62,10 +65,13 @@ production and will be added on release.*
 ## Editions and printing
 
 Each issue is an edition of 100 with 10 artist's proofs, hand-numbered on the
-colophon. Issues are prepared as sheet-fed CMYK press packages (200 ppi, 0.25 in
-bleed, ink-limited for uncoated stock) on 70 lb Vanilla uncoated text with a
-100 lb uncoated cover, plus a broadsheet fold-out. Press PDFs and per-issue
-specs live in [`press/`](press) and [`specs/`](specs); see
+colophon. Each is a mini 7.875 × 10.5 in saddle-stitched booklet (cover · 12
+full-bleed plates · four coloured spreads · colophon, 24 pp) wrapped in a
+quarter-fold cover that opens to a poster. Issues are prepared as CMYK press
+packages (200 ppi, 0.25 in bleed, ink-limited): colour issues on 100 lb matte
+coated stock, Jackie 60 Part I (xerox) on warm uncoated. Press PDFs, per-issue
+specs, posters, and full layouts live in [`press/`](press), [`specs/`](specs),
+[`posters/`](posters), and [`layouts/`](layouts); see
 [`print.html`](https://mediaeater.github.io/mediaeater-zines-2026/print.html)
 for printing instructions. The published PDFs are proofs — the press TIFFs are
 not distributed here.
@@ -76,7 +82,9 @@ not distributed here.
 |------|----------|
 | [`index.html`](index.html) | the catalogue (GitHub Pages landing page) |
 | [`covers/`](covers) | cover thumbnails (`01.jpg` … ) |
-| [`pdfs/`](pdfs) | issue PDFs (cover + 12 plates + colophon) |
+| [`pdfs/`](pdfs) | reader PDFs (cover + 12 full-bleed plates + coloured spreads + colophon, 24 pp) |
+| [`posters/`](posters) | fold-out poster (the cover sheet's reverse) |
+| [`layouts/`](layouts) | full-object layout (cover-sheet sides + booklet) |
 | [`press/`](press) | press-proof PDFs |
 | [`specs/`](specs) | per-issue printer specs |
 | [`print.html`](print.html) | printing instructions |
