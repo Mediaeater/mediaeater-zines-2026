@@ -13,7 +13,7 @@ caption, headline, or body text.
 |---|---|
 | **Author** | Mark Ghuneim (Mediaeater) |
 | **Format** | Wordless red-line image-zine · quarter-fold cover → poster |
-| **Issues** | 10 published (Issue 11 in production) |
+| **Issues** | 11 published |
 | **Interior** | 12 full-bleed plates + 4 coloured spreads (24 pp) |
 | **Edition** | 100 + 10 AP each |
 | **Print** | Coated sheet-fed, CMYK, mini 7.875 × 10.5 in |
@@ -58,9 +58,7 @@ Titles link to the issue PDF.
 | VIII | [Jackie 60 — Part II](pdfs/JACKIE_60_PART_II_issue08.pdf) | Nightclub figures (colour volume) | *(as Part I)* | echo, cast-shadow, silhouette, duotone, multicut, spotlight |
 | IX | [Collage — The Cut](pdfs/COLLAGE_THE_CUT_issue09.pdf) | Stezaker-style face splices | — | stezaker splice (single-effect) |
 | X | [Broken Social Scene](pdfs/BROKEN_SOCIAL_SCENE_issue10.pdf) | Festival live photographs | Pier 54, Hudson River Park, NYC, 10 Jul 2003 · Coachella, Indio CA, 2 May 2004 | cast-shadow, echo, spotlight |
-
-*Issue XI — **Clinic** (surgical-masked live set, Bowery Ballroom, NYC) is in
-production and will be added on release.*
+| XI | [Clinic](pdfs/CLINIC_issue11.pdf) | Surgical-masked live set | Bowery Ballroom, NYC, 4 Apr 2002 | duotone, spotlight, echo, xerox, channel-split, cast-shadow |
 
 ## Editions and printing
 
