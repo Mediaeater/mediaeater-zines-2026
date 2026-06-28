@@ -13,7 +13,7 @@ caption, headline, or body text.
 |---|---|
 | **Author** | Mark Ghuneim (Mediaeater) |
 | **Format** | Wordless red-line image-zine · quarter-fold cover → poster |
-| **Issues** | 11 published |
+| **Issues** | 12 published |
 | **Interior** | 12 full-bleed plates + 4 coloured spreads (24 pp) |
 | **Edition** | 100 + 10 AP each |
 | **Print** | Coated sheet-fed, CMYK, mini 7.875 × 10.5 in |

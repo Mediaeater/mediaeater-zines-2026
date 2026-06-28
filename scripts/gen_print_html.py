@@ -16,7 +16,7 @@ ISSUES = [
     ("04", "IV", "People in Cars"), ("05", "V", "Camera Optics"), ("06", "VI", "IFC Marquee"),
     ("07", "VII", "Jackie 60 — Part I"), ("08", "VIII", "Jackie 60 — Part II"),
     ("09", "IX", "Collage — The Cut"), ("10", "X", "Broken Social Scene"),
-    ("11", "XI", "Clinic"),
+    ("11", "XI", "Clinic"), ("12", "XII", "Depeche Mode"),
 ]
 HEAD = """<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">

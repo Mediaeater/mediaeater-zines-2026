@@ -56,6 +56,7 @@ ISSUES = {
     "09": ("zine_stezaker", "issue09", "COLLAGE_THE_CUT_issue09.pdf"),
     "10": ("zine_broken_social_scene", "issue10", "BROKEN_SOCIAL_SCENE_issue10.pdf"),
     "11": ("zine_clinic", "issue11", "CLINIC_issue11.pdf"),
+    "12": ("zine_depeche_mode", "issue12", "DEPECHE_MODE_issue12.pdf"),
 }
 os.makedirs(f"{SITE}/posters", exist_ok=True)
 os.makedirs(f"{SITE}/layouts", exist_ok=True)
