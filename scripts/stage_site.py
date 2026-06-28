@@ -2,7 +2,8 @@
 from the issues built in images-work.
 
 RUN FROM the images-work repo root, with its venv:
-    .venv/bin/python .claude/skills/zine/scripts/stage_site.py
+    .venv/bin/python .claude/skills/zine/scripts/stage_site.py            # all issues
+    .venv/bin/python .claude/skills/zine/scripts/stage_site.py 03         # only issue 03
 
 Prereq: each issue is built + printed under mashups/<band>/issue<NN>/ with its
 print/ package (cover.png, page_*.png, colophon.png, print/cover/COVER_SIDE_B.tif,
@@ -15,7 +16,10 @@ Writes per-issue assets into ~/Projects/mediaeater-zines-2026:
   pdfs/<TITLE>_issueNN.pdf  the 24pp BOOKLET reader: zine_print.booklet_plan ordered
                           (cover · 12 plates · 4 dispersed COLOUR_LEAVES spreads ·
                           colophon + white blanks), each page rendered NO-BLEED at the
-                          7.875x10.5 trim @150ppi. **This is NOT the plain 14pp
+                          7.875x10.5 trim @150ppi, THEN the whole-object FULL_LAYOUT
+                          (cover panels + poster + booklet grid, 3pp) appended via
+                          ghostscript so the poster + full layout are visible in the
+                          reader itself (27pp total). **This is NOT the plain 14pp
                           cover+12+colophon reader (mashups/.../<BAND>_issueNN.pdf) —
                           do not substitute it or you strip the coloured spreads.**
   press/NN_press.pdf      direct copy of print/<iss>_press.pdf (press proof, with bleed)
@@ -30,13 +34,14 @@ Provenance: recovered 2026-06-28 from a session scratchpad and preserved here (a
 the site repo's scripts/) so the pipeline survives. Issue 11 (Clinic) added to ISSUES
 below — it was originally staged by a separate stage_clinic.py.
 """
-import sys, os, shutil, re
+import sys, os, shutil, re, subprocess
 _a = sys.argv; sys.argv = ["x"]
 sys.path.insert(0, ".claude/skills/zine/scripts")
 import zine_print as zp
 sys.argv = _a
 from PIL import Image
 
+GS = shutil.which("gs")     # ghostscript: append the full layout to the reader PDF
 SITE = os.path.expanduser("~/Projects/mediaeater-zines-2026")
 PANEL = (7.875, 10.5); PPI = 150
 ISSUES = {
@@ -55,6 +60,24 @@ ISSUES = {
 os.makedirs(f"{SITE}/posters", exist_ok=True)
 os.makedirs(f"{SITE}/layouts", exist_ok=True)
 pw, ph = int(PANEL[0]*PPI), int(PANEL[1]*PPI)
+
+# optional positional arg(s) = issue key(s) to (re)stage; default = all
+ONLY = [k for k in sys.argv[1:] if not k.startswith("-")]
+
+
+def save_reader(pages, reader, layout_src):
+    """Reader PDF = the booklet, with the whole-object FULL_LAYOUT (cover panels +
+    poster + booklet grid) appended so the poster + layout are visible in the reader
+    itself. Falls back to booklet-only if ghostscript or the layout is unavailable."""
+    if GS and os.path.exists(layout_src):
+        tmp = os.path.join(os.path.dirname(reader), f".{os.path.basename(reader)}.booklet.pdf")
+        pages[0].save(tmp, "PDF", resolution=float(PPI), save_all=True, append_images=pages[1:])
+        subprocess.run([GS, "-q", "-dNOPAUSE", "-dBATCH", "-dAutoRotatePages=/None",
+                        "-sDEVICE=pdfwrite", f"-sOutputFile={reader}", tmp, layout_src], check=True)
+        os.remove(tmp)
+        return True
+    pages[0].save(reader, "PDF", resolution=float(PPI), save_all=True, append_images=pages[1:])
+    return False
 
 
 def web_jpg(src, dst, maxw=1600, q=86):
@@ -81,15 +104,18 @@ def render_page(nm, idir):
 
 
 for nn, (band, iss, pdfname) in ISSUES.items():
+    if ONLY and nn not in ONLY:
+        continue
     idir = f"mashups/{band}/{iss}"
     web_jpg(f"{idir}/cover.png", f"{SITE}/covers/{nn}.jpg")
     web_jpg(f"{idir}/print/cover/COVER_SIDE_B.tif", f"{SITE}/posters/{nn}.jpg", maxw=2000)
     plates = sorted(p[:-4] for p in os.listdir(idir) if re.match(r"page_\d+\.png$", p))
     plan = zp.booklet_plan(plates, int(nn))
     pages = [render_page(nm, idir) for nm in plan]
-    pages[0].save(f"{SITE}/pdfs/{pdfname}", "PDF", resolution=float(PPI), save_all=True, append_images=pages[1:])
+    shutil.copy(f"{idir}/print/FULL_LAYOUT.pdf", f"{SITE}/layouts/{nn}.pdf")
+    appended = save_reader(pages, f"{SITE}/pdfs/{pdfname}", f"{idir}/print/FULL_LAYOUT.pdf")
     shutil.copy(f"{idir}/print/{iss}_press.pdf", f"{SITE}/press/{nn}_press.pdf")
     shutil.copy(f"{idir}/print/SPEC.txt", f"{SITE}/specs/{nn}.txt")
-    shutil.copy(f"{idir}/print/FULL_LAYOUT.pdf", f"{SITE}/layouts/{nn}.pdf")
-    print(f"issue {nn} ({iss}): cover+poster+readerPDF({len(pages)}pp)+press+spec+layout staged")
-print("STAGED")
+    tail = "+fulllayout" if appended else ""
+    print(f"issue {nn} ({iss}): cover+poster+readerPDF({len(pages)}pp{tail})+press+spec+layout staged")
+print("STAGED" + (f" (only {','.join(ONLY)})" if ONLY else ""))
