@@ -59,6 +59,8 @@ Titles link to the issue PDF.
 | IX | [Collage — The Cut](pdfs/COLLAGE_THE_CUT_issue09.pdf) | Stezaker-style face splices | — | stezaker splice (single-effect) |
 | X | [Broken Social Scene](pdfs/BROKEN_SOCIAL_SCENE_issue10.pdf) | Festival live photographs | Pier 54, Hudson River Park, NYC, 10 Jul 2003 · Coachella, Indio CA, 2 May 2004 | cast-shadow, echo, spotlight |
 | XI | [Clinic](pdfs/CLINIC_issue11.pdf) | Surgical-masked live set | Bowery Ballroom, NYC, 4 Apr 2002 | duotone, spotlight, echo, xerox, channel-split, cast-shadow |
+| XII | [Depeche Mode](pdfs/DEPECHE_MODE_issue12.pdf) | Promotional rehearsal show | The Roxy, West Hollywood, CA, 4 Jun 2001 | xerox (single-effect) |
+| XIII | [Oasis](pdfs/OASIS_issue13.pdf) | Live festival set — 22-plate black-and-white special | Across the Narrows Festival — Richmond County Bank Ballpark, Staten Island, NYC, 2 Oct 2005 | xerox (single-effect, halftone) |
 
 ## Editions and printing
 
