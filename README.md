@@ -13,8 +13,8 @@ caption, headline, or body text.
 |---|---|
 | **Author** | Mark Ghuneim (Mediaeater) |
 | **Format** | Wordless red-line image-zine · quarter-fold cover → poster |
-| **Issues** | 12 published |
-| **Interior** | 12 full-bleed plates + 4 coloured spreads (24 pp) |
+| **Issues** | 13 published |
+| **Interior** | 12 full-bleed plates (16 pp booklet; 22-plate special 28 pp) |
 | **Edition** | 100 + 10 AP each |
 | **Print** | Coated sheet-fed, CMYK, mini 7.875 × 10.5 in |
 | **Copyright** | © MMXXVI · Mediaeater Inc. |
@@ -29,9 +29,8 @@ The visual identity is fixed across every issue:
   full-bleed poster and folds down to the cover — the treated photograph with a
   large red issue-number box on the front, the Mediaeater mark on the back. No
   masthead, no title, no words.
-- **Interior** — twelve **full-bleed** treated plates, plus four coloured spreads
-  dispersed through the booklet, wordless (no captions, lot numbers, or page
-  numbers).
+- **Interior** — twelve **full-bleed** treated plates, wordless (no captions,
+  lot numbers, or page numbers).
 - **Colophon** — the only text in the issue. An asymmetric Baskerville-serif
   page: the issue title at left, `ISSUE <roman>` at right, the photo credit, the
   edition line, and the copyright entity set vertically up the spine.
@@ -66,7 +65,7 @@ Titles link to the issue PDF.
 
 Each issue is an edition of 100 with 10 artist's proofs, hand-numbered on the
 colophon. Each is a mini 7.875 × 10.5 in saddle-stitched booklet (cover · 12
-full-bleed plates · four coloured spreads · colophon, 24 pp) wrapped in a
+full-bleed plates · colophon, 16 pp) wrapped in a
 quarter-fold cover that opens to a poster. Issues are prepared as CMYK press
 packages (200 ppi, 0.25 in bleed, ink-limited): colour issues on 100 lb matte
 coated stock, Jackie 60 Part I (xerox) on warm uncoated. Press PDFs, per-issue
@@ -82,7 +81,7 @@ not distributed here.
 |------|----------|
 | [`index.html`](index.html) | the catalogue (GitHub Pages landing page) |
 | [`covers/`](covers) | cover thumbnails (`01.jpg` … ) |
-| [`pdfs/`](pdfs) | reader PDFs (cover + 12 full-bleed plates + coloured spreads + colophon, 24 pp) |
+| [`pdfs/`](pdfs) | reader PDFs (cover + full-bleed plates + colophon booklet, with the full layout appended) |
 | [`posters/`](posters) | fold-out poster (the cover sheet's reverse) |
 | [`layouts/`](layouts) | full-object layout (cover-sheet sides + booklet) |
 | [`press/`](press) | press-proof PDFs |

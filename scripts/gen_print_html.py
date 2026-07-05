@@ -17,6 +17,7 @@ ISSUES = [
     ("07", "VII", "Jackie 60 — Part I"), ("08", "VIII", "Jackie 60 — Part II"),
     ("09", "IX", "Collage — The Cut"), ("10", "X", "Broken Social Scene"),
     ("11", "XI", "Clinic"), ("12", "XII", "Depeche Mode"),
+    ("13", "XIII", "Oasis"),
 ]
 HEAD = """<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +43,7 @@ HEAD = """<!doctype html><html lang="en"><head>
   <header><h1>Print Instructions<span class="bar"></span></h1>
     <p class="note">Each issue is a mini <strong>quarter-fold</strong> edition: one sheet folds out to a
     full-bleed poster and folds down to the cover, wrapping a saddle-stitched <strong>full-bleed plate
-    booklet</strong> (cover &middot; 12 plates &middot; four coloured spreads &middot; colophon, 24pp).
+    booklet</strong> (cover &middot; 12 plates &middot; colophon flanked by white blanks, 16pp).
     Colour issues print <strong>coated</strong> (100&nbsp;lb matte); Jackie&nbsp;60 Part&nbsp;I (xerox)
     prints on warm uncoated stock. The spec below is the interior booklet; each issue also links its
     full layout and poster. Confirm exact trim and the CMYK profile with Linco prepress
