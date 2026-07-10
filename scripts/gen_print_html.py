@@ -18,6 +18,13 @@ ISSUES = [
     ("09", "IX", "Collage — The Cut"), ("10", "X", "Broken Social Scene"),
     ("11", "XI", "Clinic"), ("12", "XII", "Depeche Mode"),
     ("13", "XIII", "Oasis"),
+    ("14", "XIV", "Art Parade 2007"),
+    ("14b1", "XIV", "Art Parade 2007 — Book I (Wolf)"),
+    ("14b2", "XIV", "Art Parade 2007 — Book II (Eye)"),
+    ("14b3", "XIV", "Art Parade 2007 — Book III (Puppets)"),
+    ("16", "XVI", "Art Parade 2007 — Close-Ups"),
+    ("17", "XVII", "Art Parade 2007 — Double Issue!"),
+    ("18", "XVIII", "Art Parade 2007 — Zombies!"),
 ]
 HEAD = """<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">

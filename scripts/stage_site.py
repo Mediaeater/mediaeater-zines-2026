@@ -59,6 +59,14 @@ ISSUES = {
     "11": ("zine_clinic", "issue11", "CLINIC_issue11.pdf"),
     "12": ("zine_depeche_mode", "issue12", "DEPECHE_MODE_issue12.pdf"),
     "13": ("zine_oasis", "issue13", "OASIS_issue13.pdf"),
+    # ART PARADE 2007 set (Issue 14 + three books, 16, 17, 18) — 2026-07-10
+    "14":   ("zine_art-parade", "issue14", "ART_PARADE_2007_issue14.pdf"),
+    "14b1": ("zine_art-parade", "issue14_book_1", "ART_PARADE_2007_BOOK_I_WOLF.pdf"),
+    "14b2": ("zine_art-parade", "issue14_book_2", "ART_PARADE_2007_BOOK_II_EYE.pdf"),
+    "14b3": ("zine_art-parade", "issue14_book_3", "ART_PARADE_2007_BOOK_III_PUPPETS.pdf"),
+    "16":   ("zine_art-parade", "issue16", "ART_PARADE_2007_CLOSE_UPS_issue16.pdf"),
+    "17":   ("zine_art-parade", "issue17", "ART_PARADE_2007_DOUBLE_ISSUE_issue17.pdf"),
+    "18":   ("zine_art-parade", "issue18", "ART_PARADE_2007_ZOMBIES_issue18.pdf"),
 }
 os.makedirs(f"{SITE}/posters", exist_ok=True)
 os.makedirs(f"{SITE}/layouts", exist_ok=True)

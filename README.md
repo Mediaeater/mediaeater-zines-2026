@@ -60,6 +60,13 @@ Titles link to the issue PDF.
 | XI | [Clinic](pdfs/CLINIC_issue11.pdf) | Surgical-masked live set | Bowery Ballroom, NYC, 4 Apr 2002 | duotone, spotlight, echo, xerox, channel-split, cast-shadow |
 | XII | [Depeche Mode](pdfs/DEPECHE_MODE_issue12.pdf) | Promotional rehearsal show | The Roxy, West Hollywood, CA, 4 Jun 2001 | xerox (single-effect) |
 | XIII | [Oasis](pdfs/OASIS_issue13.pdf) | Live festival set — 22-plate black-and-white special | Across the Narrows Festival — Richmond County Bank Ballpark, Staten Island, NYC, 2 Oct 2005 | xerox (single-effect, halftone) |
+| XIV | [Art Parade 2007](pdfs/ART_PARADE_2007_issue14.pdf) | Deitch Projects parade puppets — 12 black-field plates | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | seg plates (black field) |
+| XIV · Book I | [Wolf](pdfs/ART_PARADE_2007_BOOK_I_WOLF.pdf) | Ten-frame dolly into the fox-head puppet, xerox finale — numberless companion | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | zoom sequence + xerox |
+| XIV · Book II | [Eye](pdfs/ART_PARADE_2007_BOOK_II_EYE.pdf) | The eyeball-balloon zoom as a book — numberless companion | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | zoom sequence + xerox |
+| XIV · Book III | [Puppets](pdfs/ART_PARADE_2007_BOOK_III_PUPPETS.pdf) | The puppet plates as a numberless companion book | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | seg plates (black field) |
+| XVI | [Art Parade 2007 — Close-Ups](pdfs/ART_PARADE_2007_CLOSE_UPS_issue16.pdf) | Face and detail crops from the parade | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | closeup crops |
+| XVII | [Art Parade 2007 — Double Issue!](pdfs/ART_PARADE_2007_DOUBLE_ISSUE_issue17.pdf) | 22 white-field plates + end page — 28pp double issue | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | seg white + echo |
+| XVIII | [Art Parade 2007 — Zombies!](pdfs/ART_PARADE_2007_ZOMBIES_issue18.pdf) | The zombie walk | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | seg plates (black field) |
 
 ## Editions and printing
 

@@ -1,0 +1,32 @@
+LINCO PRESS SPEC  (issue14_book_1)  ·  process: COATED
+============================================================
+trim (single page) : 7.875" x 10.5"   [CONFIRM with Linco prepress]
+bleed              : 0.25" all sides
+resolution         : 200 ppi at final size
+colour             : CMYK; ink cap body 310% / cover 310%
+body stock         : 100 lb Matte Text (coated)
+cover stock        : 100 lb Matte Cover (coated)
+copies             : 100   (min for these stocks: 100)
+pages              : 16 (padded to x4 for imposition)
+export             : PDF 1.4 / Press Quality, single pages (no spreads), flattened
+
+PAGE PLAN (stock per leaf — annotate vellum/matte/colour swaps here):
+  p01  cover         100 lb Matte Cover (coated)  [COVER — full bleed; vellum tip-in over it]
+  p02  page_01       100 lb Matte Text (coated)
+  p03  page_02       100 lb Matte Text (coated)
+  p04  page_03       100 lb Matte Text (coated)
+  p05  page_04       100 lb Matte Text (coated)
+  p06  page_05       100 lb Matte Text (coated)
+  p07  page_06       100 lb Matte Text (coated)
+  p08  page_07       100 lb Matte Text (coated)
+  p09  page_08       100 lb Matte Text (coated)
+  p10  page_09       100 lb Matte Text (coated)
+  p11  page_10       100 lb Matte Text (coated)
+  p12  BLANK_pad_a   100 lb Matte Text (coated)  [BLANK endpaper — vellum/matte swap]
+  p13  BLANK_pad_b   100 lb Matte Text (coated)  [BLANK endpaper — vellum/matte swap]
+  p14  BLANK_pre     100 lb Matte Text (coated)  [BLANK endpaper — vellum/matte swap]
+  p15  colophon      100 lb Matte Text (coated)
+  p16  BLANK_post    100 lb Matte Text (coated)  [BLANK endpaper — vellum/matte swap]
+
+FOLD-OUT (reverse side): single full image @ broadsheet 11.5x22.75", CMYK, 0.25" bleed.
+  -> FOLDOUT_broadsheet.tif  (imposition as the sheet reverse: Linco prepress)
