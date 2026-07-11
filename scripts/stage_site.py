@@ -67,6 +67,7 @@ ISSUES = {
     "16":   ("zine_art-parade", "issue16", "ART_PARADE_2007_CLOSE_UPS_issue16.pdf"),
     "17":   ("zine_art-parade", "issue17", "ART_PARADE_2007_DOUBLE_ISSUE_issue17.pdf"),
     "18":   ("zine_art-parade", "issue18", "ART_PARADE_2007_ZOMBIES_issue18.pdf"),
+    "19":   ("zine_the_killers", "issue19", "THE_KILLERS_issue19.pdf"),
     "20":   ("zine_interpol", "issue20", "INTERPOL_issue20.pdf"),
 }
 os.makedirs(f"{SITE}/posters", exist_ok=True)
