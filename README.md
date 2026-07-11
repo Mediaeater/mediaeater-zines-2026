@@ -67,6 +67,7 @@ Titles link to the issue PDF.
 | XVI | [Art Parade 2007 — Close-Ups](pdfs/ART_PARADE_2007_CLOSE_UPS_issue16.pdf) | Face and detail crops from the parade | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | closeup crops |
 | XVII | [Art Parade 2007 — Double Issue!](pdfs/ART_PARADE_2007_DOUBLE_ISSUE_issue17.pdf) | 22 white-field plates + end page — 28pp double issue | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | seg white + echo |
 | XVIII | [Art Parade 2007 — Zombies!](pdfs/ART_PARADE_2007_ZOMBIES_issue18.pdf) | The zombie walk | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | seg plates (black field) |
+| XIX | [The Killers](pdfs/THE_KILLERS_issue19.pdf) | Live shots 2004 on a bone field | Shows TBC | seg plates (bone field) |
 | XX | [Interpol](pdfs/INTERPOL_issue20.pdf) | Live shots on a bone field | Shows TBC | seg plates (bone field) |
 
 ## Editions and printing
