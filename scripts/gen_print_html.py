@@ -25,6 +25,8 @@ ISSUES = [
     ("16", "XVI", "Art Parade 2007 — Close-Ups"),
     ("17", "XVII", "Art Parade 2007 — Double Issue!"),
     ("18", "XVIII", "Art Parade 2007 — Zombies!"),
+    ("19", "XIX", "The Killers"),
+    ("20", "XX", "Interpol"),
 ]
 HEAD = """<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
