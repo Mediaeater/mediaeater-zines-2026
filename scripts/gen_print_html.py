@@ -27,6 +27,7 @@ ISSUES = [
     ("18", "XVIII", "Art Parade 2007 — Zombies!"),
     ("19", "XIX", "The Killers"),
     ("20", "XX", "Interpol"),
+    ("21", "XXI", "Kraftwerk (Version)"),
     ("21a", "XXI · A", "Kraftwerk — Double"),
 ]
 HEAD = """<!doctype html><html lang="en"><head>
