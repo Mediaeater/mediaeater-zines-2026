@@ -69,6 +69,7 @@ Titles link to the issue PDF.
 | XVIII | [Art Parade 2007 — Zombies!](pdfs/ART_PARADE_2007_ZOMBIES_issue18.pdf) | The zombie walk | The Art Parade — Deitch Projects, Grand Street, SoHo NYC, 8 Sep 2007 | seg plates (black field) |
 | XIX | [The Killers](pdfs/THE_KILLERS_issue19.pdf) | Live shots 2004 on a bone field | Shows TBC | seg plates (bone field) |
 | XX | [Interpol](pdfs/INTERPOL_issue20.pdf) | Live shots on a bone field | Shows TBC | seg plates (bone field) |
+| XXI · A | [Kraftwerk — Double](pdfs/KRAFTWERK_issue21a.pdf) | The retrospective as 24 straight photographs | Shows TBC | photographic plates (24-plate double) |
 
 ## Editions and printing
 
